@@ -14,7 +14,7 @@ var firstmove = prompt("you're adventure begins on the doorstep of your new home
 firstmove = firstmove.toLowerCase();
 	if (firstmove == "down") {
 	alert("u made it safely to prof. oak's lab")
-				alert ("OAK: Start your new adventure by chosing your starter Pokemon.\n");
+				alert ("OAK: Start your new adventure by chosing your starter Pokemon.");
  				var starter = prompt("Choose ur starter Pokemon!\n  - Bulbasaur \n  - Squirtle \n  - Charmander");
  				starter = starter.toUpperCase();
 					if (starter == "bulbasaur") {
@@ -22,7 +22,7 @@ firstmove = firstmove.toLowerCase();
 					alert ("u received the" + " " + starter + " " + "from PROF. OAK")
 					alert("*Gary your rival runs in*\n GARY:" + " " + name + " " + " now that we both have pokemon i challenge u for a Pokemon battle!\n Charmander I choose you!");
 					alert("Bulbasaur has 2 moves at LVL.5, Tackle and Growl. Tackle inflicts damage on your opponent and Growl lowers your opponents attack stats");
-					var movea = prompt ("your Bulbasaur has 20hp, choose your move\n - Tackle\n40pp \n type/normal  \n - Growl \n40pp \n type/normal");
+					var movea = prompt ("your Bulbasaur has 20hp, choose your move\n - Tackle\n40pp\n - Growl\n40pp");
 					movea = movea.toLowerCase();
 						if (movea == "growl") {
 						alert("Bulbasaur used Growl! \n Foe Charmander's attack fell!");
